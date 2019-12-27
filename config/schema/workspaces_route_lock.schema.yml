@@ -1,0 +1,17 @@
+workspaces_route_lock.workspaces_route_lock.*:
+  type: config_entity
+  label: 'Workspaces route lock config'
+  mapping:
+    id:
+      type: string
+      label: 'Route id'
+    label:
+      type: string
+      label: 'Label'
+    uuid:
+      type: string
+    workspaces:
+      type: sequence
+      label: 'Allowed workspaces'
+      sequence:
+        type: string

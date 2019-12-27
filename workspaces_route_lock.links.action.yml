@@ -1,0 +1,5 @@
+entity.workspaces_route_lock.add_form:
+  route_name: entity.workspaces_route_lock.add_form
+  title: 'Add Workspaces route lock'
+  appears_on:
+    - entity.workspaces_route_lock.collection

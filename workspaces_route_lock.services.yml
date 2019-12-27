@@ -1,0 +1,6 @@
+services:
+  workspaces_route_lock.manager:
+    class: Drupal\workspaces_route_lock\RouteLockedWorkspacesManager
+    decorates: 'workspaces.manager'
+    decoration_priority: -5
+    arguments: ['@workspaces_route_lock.manager.inner', '@current_route_match', '@cache.default']

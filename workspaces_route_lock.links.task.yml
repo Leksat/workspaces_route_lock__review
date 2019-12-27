@@ -1,0 +1,5 @@
+entity.workspaces_route_lock.collection:
+  route_name: entity.workspaces_route_lock.collection
+  title: 'Route locks'
+  base_route: entity.workspace.collection
+  weight: 15

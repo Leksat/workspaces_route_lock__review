@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains workspaces_route_lock.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function workspaces_route_lock_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the workspaces_route_lock module.
+    case 'help.page.workspaces_route_lock':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides a way to lock routes to a subset of workspaces.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

@@ -1,0 +1,13 @@
+name: 'Workspaces route lock'
+type: module
+description: 'Provides a way to lock routes to a subset of workspaces.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'Workspaces'
+dependencies:
+  - workspaces
+
+# Information added by Drupal.org packaging script on 2019-12-17
+version: '8.x-1.0-alpha3'
+project: 'workspaces_route_lock'
+datestamp: 1576612688
